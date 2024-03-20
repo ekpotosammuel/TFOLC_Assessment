@@ -55,8 +55,6 @@ class RegisterController extends Controller
     public function logout(Request $request)
     {
 
-        // return "here";
-        // die();
         session()->flush();
         session()->put('is_login', false);
         return redirect('api/login');

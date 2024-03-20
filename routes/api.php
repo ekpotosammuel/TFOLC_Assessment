@@ -20,20 +20,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-// Route::get('/', function () {
-//     return view('Auth.register');
-// });
 
-// Route::get('/login', [RegisterController::class, 'loginForm'])->name('login/form');
 Route::post('/register', [RegisterController::class, 'register']);
 Route::post('/login', [RegisterController::class, 'login']);
-// Route::get('/logout', [RegisterController::class, 'logout']);
+
 
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('/logout', [RegisterController::class, 'logout']);
 });
-
-// Route::group(['middleware' => 'auth:sanctum'], function () {
-//     Route::view('/dashboard', "dashboard"); //Home Page
-// });
