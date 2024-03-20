@@ -9,6 +9,7 @@
 
 ## TFOLC_Assessment
 
+
 -2 You're tasked with optimizing the loading speed of a critical web page component.
 Describe several techniques you'd employ.
 
@@ -77,3 +78,6 @@ C: Controllers in Laravel are PHP classes that define methods (or actions) to ha
 potentially retrieve user data after successful login?
 
 ANS: using the laravel inbuilt Auth::attempt(). 
+
+## POSTMAN DOCUMENTATION
+##https://documenter.getpostman.com/view/15914392/2sA358dQwh##
