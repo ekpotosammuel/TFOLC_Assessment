@@ -80,4 +80,5 @@ potentially retrieve user data after successful login?
 ANS: using the laravel inbuilt Auth::attempt(). 
 
 ## POSTMAN DOCUMENTATION
-##https://documenter.getpostman.com/view/15914392/2sA358dQwh##
+- **[DOC](https://documenter.getpostman.com/view/15914392/2sA358dQwh)**
+
