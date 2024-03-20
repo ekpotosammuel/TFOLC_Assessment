@@ -58,8 +58,8 @@ Logout: To logout, the client can simply destroy the generated bearer token
 ANS: Use Token-Based Authentication Instead of using session-based authentication.
 Set a reasonable expiration time for access tokens to limit their lifespan and reduce the risk of session hijacking.
 Ensure that the API is served over HTTPS to encrypt data transmitted between the client and server, preventing eavesdropping and man-in-the-middle attacks.
-Rate limit: laravel comes with throttling we can use that to prevent brute-force password combination hack to limit the request that will be sent to logging phase with the user email trying to use brute-force password combination hack.
-Login Attemp: set a number of login attempts before locking an account if all attempts are used up.
+Rate limit: laravel comes with throttling we can use that to prevent brute-force password combination hack to limit the request that will be sent to the logging phase with the user email trying to use brute-force password combination hack.
+Login Attempt: set a number of login attempts before locking an account if all attempts are used up.
 
 - 12 Discuss the technologies or libraries you'd use to connect to a database (MySQL or
 other) from your chosen back-end language (PHP or Node.js).
@@ -68,6 +68,7 @@ ANS: PHP(Laravel Framework) comes with MySQL default connection which made it ea
 
 - 16 Briefly explain the MVC (Model-View-Controller) architecture and how it's
 implemented in Laravel or in any framework of your choice.
+
 ANS: M: this is where the business logic of the application is. In Laravel, also models are PHP classes that interact with the database.
 V: this is where all the views i.e. HTML(frontend) of the application, are constructed.
 C: Controllers in Laravel are PHP classes that define methods (or actions) to handle incoming requests and they act as an intermediary between the models and views
